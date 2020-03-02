@@ -1,0 +1,51 @@
+name: test_ui
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.7.0
+  mask_text_input_formatter: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/milkyway.jpg
+    - assets/applepay.jpg
+    - assets/mastercard.png
+    - assets/visa.png
+    - assets/topUp.png
+    - assets/toCard.png
+    - assets/payments.png
+    - assets/addService.png
+    - assets/chat.png
+    - assets/wallet.png
+    - assets/identity.png
+    - assets/onHome.png
+    - assets/onNotification.png
+    - assets/onQR.png
+    - assets/onTransactions.png
+    - assets/onServices.png
+    - assets/contact.png
+    - assets/userContact.png
+    - assets/ukraine.png
+
+  fonts:
+  - family: SanFrancisco
+    fonts:
+    - asset: assets/fonts/sf.ttf
+  
